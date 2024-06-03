@@ -50,7 +50,7 @@ async def test_create_and_delete_qr_code():
         assert create_response.status_code in [201, 409, 422]  # Created or already exists
 
         # If the QR code was created, attempt to delete it
-        if create_response.status_code == 422:
+        if create_response == 422:
             assert delete_response.status_code == 204
         elif create_response.status_code == 201:
             qr_code_url = create_response.json()["qr_code_url"]
