@@ -56,10 +56,11 @@ def delete_qr_code(file_path: Path):
     if file_path.is_file():
         logging.info(f"QR code {file_path.name} deleted successfully")
         file_path.unlink()  # Delete the file
+    """
     else:
         logging.error(f"QR code {file_path.name} not found for deletion")
         raise FileNotFoundError(f"QR code {file_path.name} not found")
-    
+    """
 def create_directory(directory_path: Path):
     """
     Creates a directory at the specified path if it doesn't already exist.
