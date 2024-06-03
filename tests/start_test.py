@@ -55,3 +55,5 @@ async def test_create_and_delete_qr_code():
             qr_filename = qr_code_url.split('/')[-1]
             delete_response = await ac.delete(f"/qr-codes/{qr_filename}", headers=headers)
             assert delete_response.status_code == 204  # No Content, successfully deleted
+        if create_response.status_code == 422:
+            assert delete_response.status_code == 204
