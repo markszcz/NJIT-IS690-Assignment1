@@ -52,13 +52,14 @@ def delete_qr_code(file_path: Path):
     Parameters:
     - file_path (Path): The filesystem path of the QR code image to delete.
     """
+    logging.info(f"Deleting QR file: {file_path}")
     if file_path.is_file():
-        file_path.unlink()  # Delete the file
         logging.info(f"QR code {file_path.name} deleted successfully")
+        file_path.unlink()  # Delete the file
     else:
         logging.error(f"QR code {file_path.name} not found for deletion")
         raise FileNotFoundError(f"QR code {file_path.name} not found")
-
+    
 def create_directory(directory_path: Path):
     """
     Creates a directory at the specified path if it doesn't already exist.
