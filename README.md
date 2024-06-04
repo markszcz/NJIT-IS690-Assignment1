@@ -1,6 +1,6 @@
 # NJIT-IS690-Assignment1
 
-# Install
+## Install
 1. Clone
 2. Make virtual environment:  python3 -m venv venv
 3. Activate virtual environment: source venv/bin/activate
@@ -12,3 +12,11 @@
 9. Goto http://localhost/docs to view openapi spec documentation
 10. Click "authorize" input username: admin password: secret
 11. Test making, retrieving, and deleting QR codes on the spec page. 
+
+## Screenshot(s)
+![GitHub Actions Success ](/MarkSzcz - GitHub Actions.png)
+![Image in markszcz Docker Hub account](/MarkSzcz - Docker Hub.png)
+
+## Grading
+You will only get 100 if the entire QR program passes GitHub actions, so you will need to update the production.yml file to have your info and setup your environment variables on the repository.
+
