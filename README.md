@@ -14,8 +14,8 @@
 11. Test making, retrieving, and deleting QR codes on the spec page. 
 
 ## Screenshot(s)
-![GitHub Actions Success ](/MarkSzcz - GitHub Actions.png)
-![Image in markszcz Docker Hub account](/MarkSzcz - Docker Hub.png)
+![GitHub Actions Success ](MarkSzcz - GitHub Actions.png)
+![Image in markszcz Docker Hub account](MarkSzcz - Docker Hub.png)
 
 ## Grading
 You will only get 100 if the entire QR program passes GitHub actions, so you will need to update the production.yml file to have your info and setup your environment variables on the repository.
