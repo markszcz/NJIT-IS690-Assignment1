@@ -14,7 +14,9 @@
 11. Test making, retrieving, and deleting QR codes on the spec page. 
 
 ## Screenshot(s)
+### GitHub Actions
 ![GitHub Actions Success ](MarkSzcz-GitHubActions.png)
+### Docked Hub Image
 ![Image in markszcz Docker Hub account](MarkSzcz-DockerHub.png)
 
 ## Grading
